@@ -6,7 +6,7 @@ export default function StatsBar() {
   const stats = [
     {
       id: 'members',
-      count: '1,400+',
+      count: '1,500+',
       label: 'TOTAL MEMBERS',
       icon: <Users className="w-6.5 h-6.5 text-white" />,
     },

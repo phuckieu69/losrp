@@ -87,9 +87,7 @@ export default function Hero({ bgImagePath, onExploreClick }: HeroProps) {
               className="flex items-center gap-3 bg-[#111214] hover:bg-[#1e1f22] text-white px-5 py-3 rounded-md border border-slate-800/80 shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer text-left group"
               id="discord-cta"
             >
-              <div className="w-8 h-8 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-white transition-colors duration-200">
-                <img src={discordIcon} alt="Discord" className="w-4.5 h-4.5 object-contain" />
-              </div>
+              <img src={discordIcon} alt="Discord" className="w-6 h-6 object-contain" />
               <div className="flex flex-col leading-none">
                 <span className="text-xs font-extrabold tracking-wider text-slate-100">JOIN DISCORD</span>
                 <span className="text-[10px] text-slate-400 font-medium mt-0.5">discord.gg/losrp</span>
@@ -104,9 +102,7 @@ export default function Hero({ bgImagePath, onExploreClick }: HeroProps) {
               className="flex items-center gap-3 bg-[#111214] hover:bg-[#1e1f22] text-white px-5 py-3 rounded-md border border-slate-800/80 shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer text-left group"
               id="erlc-cta"
             >
-              <div className="w-8 h-8 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-white">
-                <img src={robloxIcon} alt="Roblox" className="w-5.5 h-5.5 object-contain" />
-              </div>
+              <img src={robloxIcon} alt="Roblox" className="w-7 h-7 object-contain" />
               <div className="flex flex-col leading-none">
                 <span className="text-xs font-extrabold tracking-wider text-slate-100">JOIN ERLC SERVER</span>
                 <span className="text-[10px] text-sky-400 font-bold font-mono mt-0.5">LOSRRPPP</span>
