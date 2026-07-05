@@ -149,8 +149,19 @@ export default function App() {
 
           </div>
 
-          <div className="pt-8 mt-8 border-t border-slate-900/50 flex items-center justify-center text-[10px] text-slate-600">
+          <div className="pt-8 mt-8 border-t border-slate-900/50 flex flex-col items-center justify-center gap-2 text-[10px] text-slate-600">
             <span>&copy; {new Date().getFullYear()} Los Angeles Roleplay Community. All rights reserved.</span>
+            <span>
+              Powered by <span className="text-slate-400 font-semibold">Nexaros Studios</span> —{' '}
+              <a
+                href="https://discord.gg/TsruaeUrmD"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 font-semibold transition-colors duration-200"
+              >
+                join here to get yours
+              </a>
+            </span>
           </div>
         </div>
       </footer>
